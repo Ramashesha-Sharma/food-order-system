@@ -1,0 +1,88 @@
+body{
+    background-image: url("images/home-bg.jpg");
+}
+input[type=text], input[type=password],select{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid white;
+  box-sizing: border-box;
+}
+button {
+  background-color: orange;
+  color: blue;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  left: 50%;
+  width: 40%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+header{
+    position: fixed;
+    top:0; left: 0; right:0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:white;
+    padding:2rem 9%;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+}
+header .navbar a{
+    font-size: 1.2rem;
+    margin-left: 4rem;
+    color:lightslategrey;
+}
+
+header .navbar a:hover{
+    color:var(--red);
+}
+.box{
+    float: left;
+}
+.foods{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3.5rem;
+    min-height: 100vh;
+  
+}
+section img{
+    width: 300px;
+    height: 300px;
+}
+h1{
+    color: cornflowerblue;
+
+}
+h2{
+    text-align: center;
+    color: tomato;
+}
+
+figcaption{
+    color: brown;
+}
+label{
+    color: chocolate;
+}
+optgroup{
+    color: darkgreen;
+}
+option{
+    color: darkmagenta;
+}
+.cartContainer {
+    margin-top: 4rem;
+    font-size: 1.5rem;
+    text-align: center
+}
